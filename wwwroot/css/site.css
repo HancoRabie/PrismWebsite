@@ -1,0 +1,224 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
+}
+
+.makeItSpin {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+#prismLogo {
+    display: flex;
+    justify-content: center;
+    width: 125px;
+    height: 135px;
+    margin: 0 auto;
+}
+
+#prismSlogan { 
+    display: flex;
+    justify-content: center;
+    color: darkslateblue;
+    width: 525px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#presetsText {
+    display: flex;
+    justify-content: center;
+    color: darkslateblue;
+    width: 525px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    font-size: 18px;
+    width: 560px;
+    border-radius: 8px;
+    outline: none;
+}
+
+label {
+    font-size: 16px;
+    display: flex;
+}
+
+img {
+    width: 560px;
+    margin: 0 auto;
+    padding: 0px 0px 7px 0px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#prismHeroPic {
+    border-radius: 25px;
+}
+
+#theForm {
+    background-color: lightblue;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    color: darkslateblue;
+}
+
+input[type=submit] {
+    background-color: darkseagreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+#createYoursButtonsContainer {
+    background-color: darkslateblue;
+    margin: 0 auto;
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+    color: darkslateblue;
+    display: flex;
+    border-radius: 50%;
+}
+
+button#createYours {
+    background-color: lightgoldenrodyellow;
+    margin: 0 auto;
+    width: 215px;
+    height: 45px;
+    font-size: 16px;
+    color: darkslateblue;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50%;
+    outline: none;
+}
+
+#modelButtonsContainer {
+    margin: 0 auto;
+    width: 254px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+#modelButtons {
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+    height: 30px;
+    font-size: 16px;
+    color: darkslateblue;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+.product-info {
+    padding: 5px 3px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+ul.product-props {
+    list-style-type: none;
+    background-color: lightblue;
+    border-radius: 8px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#kickstarterLink {
+    background-color: darkseagreen;
+    color: white;
+    margin: 0 auto;
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border-radius: 8px;
+}
+
+#socialMediaContainer {
+    display: flex;
+    width: 560px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#cryptoDonationAddresses {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+}
+
+#socialMediaHeader {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 24px;
+    color: darkslateblue;
+}
+
+#socialMediaSubHeader {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 16px;
+    color: darkslateblue;
+}
+
+#coinDonationsHeader {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 135px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+#subCoinDonationsText {
+    display: flex;
+    justify-content: center;
+    color: darkslateblue;
+    width: 525px;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.coinAddresses {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+    padding-top: 5px;
+}
